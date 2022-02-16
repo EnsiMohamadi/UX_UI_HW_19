@@ -1,5 +1,4 @@
-.body-container { 
-}
+
 .logo {
     width: 77px;
   height: 145px;
@@ -29,7 +28,6 @@
   .work1 {
     background-color: #FFE59A;
     width: 48%;
-    height: 254px;
     color: #6E6E6E;
     display:flex;
     align-items: center;
@@ -47,7 +45,6 @@ margin: 3%;
   .work2 {
     background-color: #A39382;
     width: 48%;
-    height: 254px;
     color: white;
     display:flex;
     align-items: center;
@@ -133,6 +130,12 @@ margin: 3%;
   @media only screen and (max-width: 600px) {
     body {
       background-color:#E9E9E9
+    }
+    .work1{
+      flex-direction: column;
+    }
+    .work2{
+      flex-direction: column;
     }
   }
   
